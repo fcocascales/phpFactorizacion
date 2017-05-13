@@ -1,0 +1,61 @@
+body {
+	background-color:#eee;
+}
+#calc {
+	display:flex;
+	flex-direction:row; /* row|row-reverse|column|column-reverse */
+	flex-wrap:wrap; /* wrap|nowrap|wrap-reverse */
+	justify-content:flex-start;	 /* flex-start|flex-end|center|space-between|space-around */
+	align-items:stretch; /* flex-start|flex-end|center|baseline|stretch */
+
+	font-size:10pt;
+	padding:1em;
+	background-color:#ddd;
+	font-family:Verdana,sans-serif;
+	border:2px inset;
+}
+#calc div {
+	zz_flex-basis:auto; /* auto|NUMpx */
+	zz_flex-grow:1; /* natural */
+	width:200px;
+
+	/*display:inline-block;*/
+	background-color:#fff;
+	border:1px solid #eee;
+	box-shadow:1px 1px 2px #999;
+	padding:4px 8px;
+	border-radius:6px;
+	margin:2px;
+}
+#calc strong {
+}
+#calc span {
+}
+#calc div > sup {
+	font-size:0.6em;
+}
+#calc .prime {
+	color:red;
+}
+
+#params h2 {
+}
+#params ul {
+	list-style-type:none;
+	margin:1em 0; padding:0;
+}
+#params li {
+	display:inline-block;;
+}
+#params li:after, #params li:first-child:before {
+	content:" | ";
+	color:#ccc;
+}
+#params form {
+}
+#params input {
+	width:6em;
+}
+#params button {
+
+}
